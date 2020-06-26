@@ -209,7 +209,7 @@ this.setState({
         cols={this.cols}
         selectBox={this.selectBox}
         />
-        <h2>Generations: {this.state.generation}</h2>
+        <h2>Permutations: {this.state.generation}</h2>
       </div>
     )
   }
