@@ -210,6 +210,15 @@ this.setState({
         selectBox={this.selectBox}
         />
         <h2>Permutations: {this.state.generation}</h2>
+        <h2>The Rules</h2>
+        <h4>
+For a space that is 'populated':
+<li>Each cell with one or no neighbors dies, as if by solitude.</li>
+<li>Each cell with four or more neighbors dies, as if by overpopulation.</li>
+<li>Each cell with two or three neighbors survives.</li>
+<li>or a space that is 'empty' or 'unpopulated'</li>
+<li>Each cell with three neighbors becomes populated.</li>
+</h4>
       </div>
     )
   }
